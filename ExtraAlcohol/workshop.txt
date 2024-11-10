@@ -1,0 +1,10 @@
+version=1
+id=3363098402
+title=ExtraAlcohol (Alpha)
+description=a simple mod which adds extra alcohol types.
+description=
+description=currently in alpha, i dont think the distributions work properly and i havent had the energy nor motivation to fix it yet, so here is the alpha
+description=
+description=this is my first mod and the textures arent great, sorry
+tags=Build 41;Food
+visibility=public

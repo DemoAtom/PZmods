@@ -1,0 +1,401 @@
+module ExtraAlcohol
+{
+	item VodkaFull
+	{
+		DisplayName = Vodka Bottle,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.7,
+		Icon = vodkaFull,
+		EvolvedRecipe = Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4, /*;Soup:4;Stew:4,*/
+		FoodType = Liquor,
+		AlcoholPower = 2,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = VodkaEmpty,
+		HungerChange = -5,
+		ThirstChange = -20,
+		UnhappyChange = -30,
+		Calories = 1500,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		Tags = Liquor,
+	    UseDelta = 0.1,    -- 10 uses (each drink is 10% of the bottle)
+	}
+
+	item IrishCreamFull
+	{
+		DisplayName = Irish Cream Bottle,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.7,
+		Icon = irishCream,
+		EvolvedRecipe = Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4, /*;Soup:4;Stew:4,*/
+		FoodType = Liquor,
+		AlcoholPower = 1,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = IrishCreamEmpty,
+		HungerChange = -20,
+		ThirstChange = -40,
+		UnhappyChange = -30,
+		Calories = 1500,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		Tags = Liquor,
+	    UseDelta = 0.25,    -- 4 uses (each drink is 25% of the bottle)
+	}
+
+	item TequilaFull
+	{
+		DisplayName = Tequila Bottle,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.7,
+		Icon = TequilaFull,
+		EvolvedRecipe = Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4, /*;Soup:4;Stew:4,*/
+		FoodType = Liquor,
+		AlcoholPower = 2,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = TequilaEmpty,
+		HungerChange = -20,
+		ThirstChange = -20,
+		UnhappyChange = -30,
+		Calories = 1500,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		Tags = Liquor,
+	    UseDelta = 0.1,    -- 10 uses (each drink is 10% of the bottle)
+	}
+
+	item MoonshineFull
+	{
+		DisplayName = Moonshine Bottle,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		Icon = moonshineFull,
+		EvolvedRecipe = Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4, /*;Soup:4;Stew:4,*/
+		FoodType = Liquor,
+		AlcoholPower = 2,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = MoonshineEmpty,
+		HungerChange = -20,
+		ThirstChange = -20,
+		UnhappyChange = -30,
+		Calories = 1500,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		Tags = Liquor,
+        UseDelta = 0.08,    -- 12.5 uses (each drink is ~8% of the bottle)
+	}
+
+
+	item RumFull
+	{
+		DisplayName = Rum Bottle,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.7,
+		Icon = rumFull,
+		EvolvedRecipe = Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4, /*;Soup:4;Stew:4,*/
+		FoodType = Liquor,
+		AlcoholPower = 2,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = RumEmpty,
+		HungerChange = -20,
+		ThirstChange = -20,
+		UnhappyChange = -30,
+		Calories = 1500,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		Tags = Liquor,
+	    UseDelta = 0.10,    -- 10 uses (each drink is 10% of the bottle)
+	}
+
+	item AbsintheFull
+	{
+		DisplayName = Absinthe Bottle,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.7,
+		Icon = absintheFull,
+		EvolvedRecipe = Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4, /*;Soup:4;Stew:4,*/
+		FoodType = Liquor,
+		AlcoholPower = 2,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = AbsintheEmpty,
+		HungerChange = -20,
+		ThirstChange = -20,
+		UnhappyChange = -30,
+		Calories = 1500,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		Tags = Liquor,
+	    UseDelta = 0.08,    -- 12.5 uses (each drink is 25% of the bottle)
+	}
+
+	item CognacFull
+	{
+		DisplayName = Cognac Bottle,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1,
+		Icon = cognacFull,
+		EvolvedRecipe = Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4, /*;Soup:4;Stew:4,*/
+		FoodType = Liquor,
+		AlcoholPower = 2,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = CognacEmpty,
+		HungerChange = -20,
+		ThirstChange = -20,
+		UnhappyChange = -30,
+		Calories = 1500,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		Tags = Liquor,
+	    UseDelta = 0.075,    -- 12.5 uses (each drink is 25% of the bottle)
+	}
+
+	item GinFull
+	{
+		DisplayName = Gin Bottle,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.7,
+		Icon = ginFull,
+		EvolvedRecipe = Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4, /*;Soup:4;Stew:4,*/
+		FoodType = Liquor,
+		AlcoholPower = 2,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = GinEmpty,
+		HungerChange = -20,
+		ThirstChange = -20,
+		UnhappyChange = -30,
+		Calories = 1500,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		Tags = Liquor,
+	    UseDelta = 0.1,    -- 10 uses (each drink is 10% of the bottle)
+	}
+
+	item GrainAlcoholFull
+	{
+		DisplayName = Grain Alcohol Bottle,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1,
+		Icon = grainAlcoholFull,
+		EvolvedRecipe = Beverage:4;Beverage2:4;HotDrink:4;HotDrinkRed:4;HotDrinkWhite:4;HotDrinkSpiffo:4;HotDrinkTea:4, /*;Soup:4;Stew:4,*/
+		FoodType = Liquor,
+		AlcoholPower = 5,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Bourbon,
+		Packaged = TRUE,
+		ReplaceOnUse = GrainAlcoholEmpty,
+		HungerChange = -20,
+		ThirstChange = -20,
+		UnhappyChange = -30,
+		Calories = 1500,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		Tags = Liquor,
+	    UseDelta = 0.05,    -- 20 uses (each drink is 5% of the bottle)
+	}
+
+
+	--empty variants
+
+
+
+
+item VodkaEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	vodkaEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+		Tags = EmptyPetrol,
+		ReplaceTypes = PetrolSource WhiskeyPetrol;WaterSource WhiskeyWaterFull,
+	}
+
+	item GrainAlcoholEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	grainAlcoholEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+		Tags = EmptyPetrol,
+		ReplaceTypes = PetrolSource WhiskeyPetrol;WaterSource WhiskeyWaterFull,
+	}
+
+	item GinEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	ginEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+		Tags = EmptyPetrol,
+		ReplaceTypes = PetrolSource WhiskeyPetrol;WaterSource WhiskeyWaterFull,
+	}
+
+	item CognacEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	cognacEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+		Tags = EmptyPetrol,
+		ReplaceTypes = PetrolSource WhiskeyPetrol;WaterSource WhiskeyWaterFull,
+	}
+
+	item AbsintheEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	absintheEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+		Tags = EmptyPetrol,
+		ReplaceTypes = PetrolSource WhiskeyPetrol;WaterSource WhiskeyWaterFull,
+	}
+
+	item IrishCreamEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	irishCreamEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+		Tags = EmptyPetrol,
+		ReplaceTypes = PetrolSource WhiskeyPetrol;WaterSource WhiskeyWaterFull,
+	}
+
+	item MoonshineEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	mooonshineEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+		Tags = EmptyPetrol,
+		ReplaceTypes = PetrolSource WhiskeyPetrol;WaterSource WhiskeyWaterFull,
+	}
+
+	item RumEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	rumEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+		Tags = EmptyPetrol,
+		ReplaceTypes = PetrolSource WhiskeyPetrol;WaterSource WhiskeyWaterFull,
+	}
+
+	item TequilaEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.3,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Bottle,
+		ReplaceOnUseOn	=	WaterSource-WhiskeyWaterFull,
+		Icon	=	TequilaEmpty,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+		Tags = EmptyPetrol,
+		ReplaceTypes = PetrolSource WhiskeyPetrol;WaterSource WhiskeyWaterFull,
+	}
+
+
+
+
+
+}

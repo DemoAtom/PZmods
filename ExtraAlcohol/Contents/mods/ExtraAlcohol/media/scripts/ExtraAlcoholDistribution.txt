@@ -1,0 +1,25 @@
+module ExtraAlcohol
+{
+    distribution {
+    MyItem = {
+        rolls = 1,
+        items = {
+            "ExtraAlcohol.VodkaFull" = 100
+            "ExtraAlcohol.IrishCreamFull" = 100
+            "ExtraAlcohol.TequilaFull" = 100
+            "ExtraAlcohol.MoonshineFull" = 100
+            "ExtraAlcohol.RumFull" = 100
+            "ExtraAlcohol.AbsintheFull" = 100
+            "ExtraAlcohol.CognacFull" = 100
+            "ExtraAlcohol.GinFull" = 100
+            "ExtraAlcohol.GrainAlcoholFull" = 100
+        },
+        locations = {
+            "all",           // Appears everywhere
+            "kitchen",       // Specific room type
+            "bedroom",
+            "shed"
+        }
+    }
+}
+}
